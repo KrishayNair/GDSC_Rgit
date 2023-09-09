@@ -1,0 +1,124 @@
+.event-container {
+  width: 90%;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+a {
+  color: #000;
+}
+
+.event-content > .row {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 300px !important;
+}
+
+.event-container h1 {
+  font-family: 'Google Sans Bold';
+}
+
+.event-container h2 {
+  margin: 20px 0;
+}
+
+.heading-one {
+  text-decoration: underline;
+  text-decoration-color: var(--coreRed);
+}
+
+.heading-two {
+  text-decoration: underline;
+  text-decoration-color: var(--coreBlue);
+}
+
+.heading-three {
+  text-decoration: underline;
+  text-decoration-color: var(--coreGreen);
+}
+
+.heading-four {
+  text-decoration: underline;
+  text-decoration-color: var(--coreYellow);
+}
+
+.Fevent-latest {
+  width: 70%;
+  height: 45%;
+  border: 15px solid;
+  border-color: var(--coreBlue) var(--coreRed) var(--coreYellow)
+    var(--coreGreen);
+}
+
+.event-content {
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0px;
+}
+
+.event-one-image {
+  display: flex;
+  margin-bottom: 0px;
+  justify-content: space-around;
+  border-top: 10px solid var(--coreRed);
+  border-bottom: 10px solid var(--coreBlue);
+  padding-top: 30px !important;
+  position: relative;
+  left: 300px;
+}
+
+/* .event-one-image > .Fevent-latest {
+  border: 15px solid;
+  border-color: var(--coreBlue) var(--coreRed) var(--coreYellow)
+    var(--coreGreen);
+  height: 400px;
+  width: 350px;
+} */
+
+.event-one-image > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.event-two-image {
+  display: flex;
+  justify-content: space-around;
+  border-top: 10px solid var(--coreGreen);
+  border-bottom: 10px solid var(--coreYellow);
+  padding-top: 40px;
+}
+
+.event-two-image > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.event-container a{
+  margin: 25px 0;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: var(--coreBlue);
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Google Sans Regular';
+  font-size: 1.2rem;
+}
+/* 
+.event-two-image > .Fevent-latest {
+  border: 15px solid;
+  border-color: var(--coreBlue) var(--coreRed) var(--coreYellow)
+    var(--coreGreen);
+  height: 400px;
+  width: 350px;
+} */
+
+

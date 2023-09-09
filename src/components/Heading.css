@@ -1,0 +1,30 @@
+
+  .Heading{
+    font-family: 'Google Sans Bold';
+    font-size: 3rem;
+    text-align: center;
+  }
+  .Heading::-webkit-scrollbar {
+    display: none;
+  }
+  .letterO{
+    color: #4285F4;
+  }
+  .letterU{
+    color: #EA4335;
+  }
+  .letterR{
+    color: #FBBC04;
+  }
+  .letterF{
+    color: #4285F4;
+  }
+  .letterE{
+    color: #EA4335;
+  }
+  .letterE2{
+    color: #FBBC04;
+  }
+  .letterD{
+    color: #34A853;
+  }

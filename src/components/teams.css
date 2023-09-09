@@ -1,0 +1,100 @@
+
+.teams-container {
+    padding: 2%;
+    text-align: center;
+}
+
+.teams-container h1 {
+    font-family: 'Google Sans Bold';
+}
+
+.option-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 16px;
+    margin: 15px 0;
+    /* border: 2px solid; */
+    border-radius: 46px;
+    background-color: #eeeeee;
+}
+
+.option-bar button {
+    padding: 5px;
+    font-size: 1.1rem;
+    border-radius: 20px;
+    /* background-color: #fff; */
+    border: none;
+    transition: all 0.6s;
+}
+
+.option-bar button:hover {
+    transform: scale(1.15);
+    font-family: 'Google Sans Bold';
+}
+
+/* Team */
+
+.team {
+    margin: 10px auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.lead h1 span{
+    font-family: 'Google Sans Bold';
+    font-size: 4rem;
+}
+
+.G, .L {
+    color: var(--coreBlue); 
+}
+
+.D1, .E {
+    color: var(--coreRed);
+}
+
+.S, .A {
+    color: var(--coreYellow);
+}
+
+.C, .D2 {
+    color: var(--coreGreen);
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 1262px) {
+
+    .option-bar {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        justify-content: space-evenly;
+        width: 85%;
+        margin: 15px auto;
+    }
+
+    .option-bar button {
+        margin: 10px 0;
+    }
+
+}
+
+@media only screen and (max-width: 765px) {
+
+    .option-bar {
+        grid-template-columns: auto auto auto;
+        justify-content: space-between;
+        align-content: start;
+    }
+
+}
+
+@media only screen and (max-width: 610px) {
+
+    .option-bar {
+        grid-template-columns: auto auto;
+        justify-content: space-around;
+    }
+}

@@ -1,0 +1,226 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+@font-face {
+  font-family: 'Google Sans Regular';
+  src: url('./fonts/GoogleSans-Regular-v1.27.ttf')
+}
+
+@font-face {
+  font-family: 'Google Sans Bold';
+  src: url('./fonts/GoogleSans-Bold-v1.27.ttf')
+}
+
+@font-face {
+  font-family: 'Google Sans Bold Italic';
+  src: url('./fonts/GoogleSans-BoldItalic-v1.27.ttf')
+}
+
+@font-face {
+  font-family: 'Google Sans Italic';
+  src: url('./fonts/GoogleSans-Italic-v1.27.ttf')
+}
+
+@font-face {
+  font-family: 'Google Sans Medium';
+  src: url('./fonts/GoogleSans-Medium-v1.27.ttf')
+}
+
+@font-face {
+  font-family: 'Google Sans Medium Italic';
+  src: url('./fonts/GoogleSans-MediumItalic-v1.27.ttf')
+}
+
+/* colors */
+
+:root {
+  --coreBlue: #4285F4;
+  --coreRed: #EA4335;
+  --coreYellow: #FBBC04;
+  --coreGreen: #34A853;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Google Sans Regular';
+}
+/* Event Components */
+
+.event-box {
+  padding: 5%;
+  width: 82rem;
+  text-align: center;
+  position: relative;
+}
+
+.event-box h1 {
+  font-family: 'Google Sans Bold';
+  margin: 2% 0;
+  padding: 4px 0; 
+  position: relative;
+}
+
+.event-box h2 {
+  font-family: 'Google Sans Bold';
+  margin: 2% 0;
+}
+
+.event-box a {
+  position: absolute;
+  top: 83%;
+  right: 4%;
+  text-decoration: none;
+  color: #fff;
+}
+
+/*              Video              */
+video {
+  width: 100%;
+  height: 40rem;
+  object-fit: cover;
+}
+
+/* Event */
+.event-box {
+  width: 100%;
+  padding: 0;
+}
+
+.event-content > .row {
+  display: flex;
+  flex-direction: column;
+  margin-left: -150px;
+}
+
+.event-btn {
+  height: 57px;
+  width: 130px;
+  border: 5px solid;
+  border-color: var(--coreBlue) var(--coreRed) var(--coreYellow) var(--coreGreen);
+  border-radius: 10px;
+  background-color: rgb(210, 210, 210);
+  color: rgb(33, 16, 16);
+  font-weight: 600;
+  position: relative;
+  left: 525px;
+}
+
+.event-box > img {
+  border: 15px solid;
+  border-color: var(--coreBlue) var(--coreRed) var(--coreYellow) var(--coreGreen);
+}
+
+.heading-one {
+  text-decoration: underline;
+  text-decoration-color: var(--coreRed);
+}
+
+.heading-two {
+  text-decoration: underline;
+  text-decoration-color: var(--coreBlue);
+}
+
+.heading-three {
+  text-decoration: underline;
+  text-decoration-color: var(--coreGreen);
+}
+
+.heading-four {
+  text-decoration: underline;
+  text-decoration-color: var(--coreYellow);
+}
+
+.event-content {
+  margin-top: -150px;
+  width: 100%;
+}
+
+.event-one-image {
+   display: flex;
+   margin-bottom: 0px;
+   justify-content: space-around;
+   border-top: 10px solid var(--coreRed);
+   border-bottom: 10px solid var(--coreBlue);
+   padding-top: 30px;
+}
+
+.event-one-image > .FeedImage {
+  border: 15px solid;
+  border-color: var(--coreBlue) var(--coreRed) var(--coreYellow) var(--coreGreen);
+  height: 400px;
+  width: 350px;
+}
+
+.event-one-image > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.event-two-image {
+  margin-right: 70px;
+  display: flex;
+  justify-content: space-around;
+  border-top: 10px solid var(--coreGreen);
+  border-bottom: 10px solid var(--coreYellow);
+  padding-top: 40px;
+}
+
+.event-two-image > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.event-two-image > .FeedImage {
+  border: 15px solid;
+  border-color: var(--coreBlue) var(--coreRed) var(--coreYellow) var(--coreGreen);
+  height: 400px;
+  width: 350px;
+}

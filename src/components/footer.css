@@ -1,0 +1,258 @@
+/* Footer Section */
+
+.footer {
+    padding: 1.3rem;
+    display: flex;
+    /* background-color: #eeeeee; */
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+  
+  .box1 {
+    /* border: 2px solid #000; */
+    width: 35%;
+    padding: 8px;
+  }
+  
+  .footer-heading {
+    font-family: 'Google Sans Bold';
+    font-size: 2rem;
+    margin: 0 0 20px 0;
+    padding: 4px;
+    position: relative;
+  }
+  
+  .footer-heading::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    /* left: 4px; */
+    background-color: var(--coreBlue);
+    margin: 10px 0 0 0;
+    width: 25%;
+    height: 3px;
+  }
+  
+  
+  .icons {
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .icon::-webkit-scrollbar {
+    display: none;
+  }
+  .icon{
+    padding: 9px 11px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid;
+    border-radius: 50%;
+    color: #000;
+  }
+  
+  .icon:hover {
+    transform: translateY(-5px);
+  }
+  
+  .fb-icon:hover {
+    background-color: var(--coreBlue);
+    color: #fff;
+  }
+  
+  .insta-icon {
+    padding: 7px 8px;
+  }
+  
+  .insta-icon:hover {
+    background-color: var(--coreRed);
+    color: #fff;
+  }
+  
+  .twitter-icon {
+    padding: 8px;
+  }
+  
+  .twitter-icon:hover {
+    background-color: var(--coreGreen);
+    color: #fff;
+  }
+  
+  .linked-icon {
+    padding: 7px 9px;
+  }
+  
+  .linked-icon:hover {
+    background-color: var(--coreYellow);
+    color: #fff;
+  }
+  
+  .icon i {
+    font-size: 1.4rem;
+  }
+  
+  .box2 {
+    width: 40%;
+    margin-left: 200px;
+  }
+  
+  .box2 form input{
+    padding: 3px;
+    display: block;
+    margin: 15px 0;
+    width: 85%;
+    font-size: 1.05rem;
+    border: 2px solid #000;
+    border-radius: 7px;
+    font-family: 'Google Sans Regular';
+  }
+  
+  .box2 textarea {
+    resize: none;
+    padding: 5px;
+    width: 85%;
+    border-radius: 10px;
+    border: 2px solid #000;
+    font-family: 'Google Sans Regular';
+  }
+
+  .box2 form input:focus, .box2 textarea:focus {
+    background-color: #eeededcf;
+  }
+
+  .box2 form input:hover, .box2 textarea:hover {
+    border: 3px solid;
+  }
+
+
+  
+  .info-box {
+    padding: 20px;
+    margin: 0 0 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+  
+  .info {
+    margin: 20px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .info i {
+    font-size: 2rem;
+    padding: 10px 13px;
+    border-radius: 50%;
+    background-color: rgb(214, 214, 214);
+  }
+  
+  .info p {
+    margin: 0 0 0 20px;
+    font-size: 1.1rem;
+  }
+  
+  .footer-text {
+    padding: 20px;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    background-color: #eeeeee;
+  }
+  
+  .footer-text h2 {
+    font-size: 1.1rem;
+    font-family: 'Google Sans Bold';
+    margin: 5px 0;
+  }
+  
+  .footer-text h2 a {
+    color: #000;
+    font-family: 'Google Sans Bold';
+    text-decoration: none;
+  }
+  
+  .vl {
+    border-left: 3px solid #000;
+    height: 450px;
+    position: absolute;
+    left: 50%;
+    top: 10;
+  }
+  
+/* Media queries */
+
+@media only screen and (max-width: 1261px) {
+
+    .info-box {
+        justify-content: center;
+    }
+
+}
+
+@media only screen and (max-width: 1094px) {
+
+    .footer {
+        justify-content: center;
+    }
+
+    .box2 {
+        margin-left: 100px; 
+    }
+
+    .info-box {
+        margin: 0;
+        padding: 0;
+    }
+
+    .icons {
+        justify-content: space-between;
+    }
+
+}
+
+@media only screen and (max-width: 990px) {
+
+    .footer {
+        display: block;
+        text-align: center;
+    }
+
+    .box1, .box2 {
+        width: 100%
+    }
+
+    .box2 {
+        margin: 0;
+    }
+
+    /* .box2 form {
+        text-align: center;
+    } */
+
+    .box2 form input{
+        width: 50%;
+        margin: 20px auto;
+    }
+
+    .box2 form textarea {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+
+    .icons {
+        justify-content: space-evenly;
+    }
+
+}
+
+@media only screen and (max-width: 610px) {
+  
+  .box2 form input, .box2 form textarea {
+    width: 80%;
+  }
+}

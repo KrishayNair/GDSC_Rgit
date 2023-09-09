@@ -1,0 +1,309 @@
+/* .carousel-inner{
+  height: 25rem fit-content;
+} */
+#carousel-Main{
+    height: 100vh;
+    background-color: #fff;
+  }
+  
+  .carousel{
+    position: relative;
+    top: 25vh;
+  }
+  
+  .carouselImage{
+    width: 50vw;
+    height: 50vh;
+    display: block;
+  }
+  .carouselImage2{
+    font-family: Google Sans Bold;
+    margin-bottom: -80px;
+    width: 35vw;
+    height: 35vh;
+    display: block;
+    display: block;
+    position: relative;
+    left: 10rem;
+    top: 5rem;
+  }
+  
+  .brackets{
+    width: 5rem;
+  }
+  
+  .heading1{
+    /* font-family: 'Google Sans Bold'; */
+    font-family: 'Google Sans Bold';
+    font-size: 3rem;
+    color: #4285F4;
+    margin-left: 5%;
+  }
+  
+  .heading2{
+    /* font-family: 'Google Sans Bold'; */
+    font-family: 'Google Sans Bold';
+    font-size: 3rem;
+    color: #EA4335;
+    margin-left: 5%;
+  }
+   
+  .heading3{
+    font-family: 'Google Sans Bold';
+    font-size: 3rem;
+    color: #FBBC04;
+    margin-left: 5%;
+  }
+   
+  .heading4{
+    font-family: 'Google Sans Bold';
+    font-size: 3rem;
+    color: #34A853;
+    margin-left: 5%;
+  }
+   
+  .sub-heading{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    width: 500px;
+    margin-left: 5%;
+  }
+   
+  .carousel-content{
+    position: relative;
+    font-family: 'Google Sans Bold';
+    height: 20rem;
+    left: 40vw;
+    bottom: 30vh;
+    display: inline-block;
+    color: black;
+    width: 50rem;
+    padding-left: 12rem;
+  }
+   
+  .carousel-content2{
+    position: relative;
+    font-family: 'Google Sans Bold';
+    height: 18rem;
+    margin-bottom: -40px;
+    padding-bottom: -40px;
+    left: 30vw;
+    bottom: 4rem;
+    display: inline-block;
+    color: black;
+    width: 50rem;
+    padding-left: 12rem;
+  }
+   
+  .carousel-indicators{
+    color: black;
+    background-color: #A9A9A9;
+    border-radius: 10px;
+    margin-bottom: 1%;
+    margin-top: -1%;
+   
+  }
+   
+  @media screen and (max-width: 900px)and (min-width: 600px){
+    html{
+        font-size: 55%;
+    }
+  
+    .carousel-content{
+        position: relative;
+        font-family: 'Google Sans Bold';
+        left: 5rem;
+        bottom: 15rem;
+        display: inline-block;
+        color: black;
+        width: 70rem;
+        padding-left: 10rem;
+      }
+  
+    .carouselImage{
+        width: 35rem;
+        display: block;
+        position: relative;
+        left: 28rem;
+      }
+  
+    #carousel-Main{ 
+        height: 100vh;
+        background-color: #fff;
+        font-family: 'Google Sans Bold';
+      }
+  
+    .brackets{
+        width: 4rem;
+      }
+  
+    .heading1{
+        font-family: 'Google Sans Bold';
+        font-family: 'Google Sans Bold';
+        font-size: 6rem;
+        color: #4285F4;
+      }
+      
+    .heading2{
+        /* font-family: 'Google Sans Bold';d';d';d';d';d'; */
+        font-family: 'Google Sans Bold';
+        font-size: 6rem;
+        color: #EA4335;
+      }
+  
+    .heading3{
+        font-family: 'Google Sans Bold';
+        font-family: 'Google Sans Bold';
+        font-size: 6rem;
+        color: #FBBC04;
+      }
+  
+    .heading4{
+        /* font-family: 'Google Sans Bold'; */
+        font-family: 'Google Sans Bold';
+        font-size: 6rem;
+        color: #34A853;
+       }
+  
+    .sub-heading{
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Google Sans Bold';
+        font-size: 2rem;
+     }
+  
+    .carouselImage2{
+        width: 45rem;
+        display: block;
+        position: relative;
+        bottom: 120rem;
+        left: 20rem;
+      }
+  
+    .carousel-content2{
+        position: relative;
+        font-family: 'Google Sans Bold';
+        left: 3rem;
+        bottom: -5rem;
+        display: inline-block;
+        color: black;
+        width:70rem;
+        padding-left: 12rem;
+      }
+  
+    .heading1::-webkit-scrollbar {
+        display: none;
+      }
+  
+    .heading2::-webkit-scrollbar {
+        display: none;
+      }
+  
+    .heading3::-webkit-scrollbar {
+        display: none;
+      }
+  
+    .heading4::-webkit-scrollbar {
+        display: none;
+      }
+  
+   }
+
+
+   @media screen and (max-width: 600px){
+    html{
+        font-size: 40%;
+    }
+    .carousel-content{
+        position: relative;
+        font-family: 'Google Sans Bold';
+        left: 5rem;
+        bottom: 5vh;
+        display: inline-block;
+        color: black;
+        width: 25rem;
+        padding-left: 10rem;
+       }
+       .carouselImage{
+        width: 60vw;
+        display: block;
+        position: relative;
+        bottom: 10rem;
+        left: 12rem;
+       }
+       .carouselImage2{
+        width: 60vw;
+        display: block;
+        position: relative;
+        bottom: 18rem;
+        left: 12rem;
+       }
+       .carousel-content2{
+        position: relative;
+        font-family: 'Google Sans Bold';
+        left: 3rem;
+        bottom: 2rem;
+        display: inline-block;
+        color: black;
+        width:50rem;
+        padding-left: 12rem;
+       }
+       .heading1::-webkit-scrollbar {
+        display: none;
+      }
+       .heading2::-webkit-scrollbar {
+        display: none;
+      }
+       .heading3::-webkit-scrollbar {
+        display: none;
+      }
+       .heading4::-webkit-scrollbar {
+        display: none;
+      }
+       #carousel-Main{
+    
+        height: 100vh;
+        background-color: #fff;
+       }
+       .brackets{
+        width: 3rem;
+       }
+       .carousel-content{
+        position: relative;
+        font-family: 'Google Sans Bold';
+        left: 3rem;
+        bottom: 18rem;
+        display: inline-block;
+        color: black;
+        width:50rem;
+        padding-left: 12rem;
+       }
+       .heading1{
+        /* font-family: 'Google Sans Bold'; */
+        font-family: 'Google Sans Bold';
+        font-size: 6rem;
+        color: #4285F4;
+       }
+       .heading2{
+        /* font-family: 'Google Sans Bold'; */
+        font-family: 'Google Sans Bold';
+        font-size: 6rem;
+        color: #EA4335;
+       }
+       .heading3{
+        font-family: 'Google Sans Bold';
+        font-size: 6rem;
+        color: #FBBC04;
+       }
+       .heading4{
+        font-family: 'Google Sans Bold';
+        font-size: 6rem;
+        color: #34A853;
+       }
+       .sub-heading{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 2rem;
+    
+       }
+       
+   }
+    

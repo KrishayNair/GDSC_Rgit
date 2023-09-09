@@ -1,0 +1,110 @@
+/* .event-box {
+    width: 100%;
+    padding: 0;
+  }
+  
+  .event-content > .row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 300px !important;
+  }
+  
+  .event-btn {
+    height: 57px;
+    width: 130px;
+    border: 5px solid;
+    border-color: var(--coreBlue) var(--coreRed) var(--coreYellow)
+      var(--coreGreen);
+    border-radius: 10px;
+    background-color: rgb(210, 210, 210);
+    color: rgb(33, 16, 16);
+    font-weight: 600;
+    position: relative;
+    left: 560px;
+  }
+  
+  .event-box > img {
+    border: 15px solid;
+    border-color: var(--coreBlue) var(--coreRed) var(--coreYellow)
+      var(--coreGreen);
+  }
+  
+  .heading-one {
+    text-decoration: underline;
+    text-decoration-color: var(--coreRed);
+  }
+  
+  .heading-two {
+    text-decoration: underline;
+    text-decoration-color: var(--coreBlue);
+  }
+  
+  .heading-three {
+    text-decoration: underline;
+    text-decoration-color: var(--coreGreen);
+  }
+  
+  .heading-four {
+    text-decoration: underline;
+    text-decoration-color: var(--coreYellow);
+  }
+  
+  .event-content {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+  }
+  
+  .event-one-image {
+    display: flex;
+    margin-bottom: 0px;
+    justify-content: space-around;
+    border-top: 10px solid var(--coreRed);
+    border-bottom: 10px solid var(--coreBlue);
+    padding-top: 30px !important;
+    position: relative;
+    left: 300px;
+  }
+  
+  .event-one-image > .FeedImage {
+    border: 15px solid;
+    border-color: var(--coreBlue) var(--coreRed) var(--coreYellow)
+      var(--coreGreen);
+    height: 400px;
+    width: 350px;
+  }
+  
+  .event-one-image > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
+  .event-two-image {
+    display: flex;
+    justify-content: space-around;
+    border-top: 10px solid var(--coreGreen);
+    border-bottom: 10px solid var(--coreYellow);
+    padding-top: 40px;
+  }
+  
+  .event-two-image > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
+  .event-two-image > .FeedImage {
+    border: 15px solid;
+    border-color: var(--coreBlue) var(--coreRed) var(--coreYellow)
+      var(--coreGreen);
+    height: 400px;
+    width: 350px;
+  }
+   */

@@ -1,0 +1,47 @@
+/* Team */
+
+.member-card {
+    margin: 0 20px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.member-card h3 {
+    font-size: 2rem;
+    margin: 15px auto;
+}
+
+.member-card p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+}
+
+.member-card img {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: var(--coreBlue) var(--coreRed) var(--coreYellow) var(--coreGreen);
+    border-width: 1rem;
+}
+
+.member-links {
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.member-links a {
+    color: #000;
+}
+
+.member-links a i {
+    font-size: 2rem;
+}
+
+
+/* Media queries */
